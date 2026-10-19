@@ -72,6 +72,17 @@ namespace WpfNavigationLab
 
         }
 
+        private void HelpWindow_Click(object sender, RoutedEventArgs e)
+
+        {
+
+            HelpWindow helpWindow = new HelpWindow();
+
+
+            helpWindow.ShowDialog();
+
+        }
+
     }
 
 }

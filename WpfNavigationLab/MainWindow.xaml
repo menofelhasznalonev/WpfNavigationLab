@@ -34,8 +34,13 @@ Background="#1E293B">
 
                 <Button Content="Profil"
                     Height="45"
-                    Margin="0,0,0,25"
+                    Margin="0,0,0,10"
                     Click="Profile_Click"/>
+
+                <Button Content="Beállítások"
+                    Height="45"
+                    Margin="0,0,0,25"
+                    Click="OpenSettings_Click"/>
 
 
                 <TextBlock Text="Külön Window"
@@ -54,10 +59,12 @@ Background="#1E293B">
                     Height="45"
                     Click="OpenDialog_Click"/>
 
-                <Button Content="Beállítások"
+                <Button Content="Súgó"
                     Height="45"
-                    Margin="0,10,0,10"
-                    Click="OpenSettings_Click"/>
+                    Margin="0,100,0,10"
+                    Click="HelpWindow_Click"/>
+
+
 
             </StackPanel>
 
