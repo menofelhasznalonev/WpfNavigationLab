@@ -83,6 +83,14 @@ namespace WpfNavigationLab
 
         }
 
+        private void OpenMiertJobbAPage_Click(object sender, RoutedEventArgs e)
+
+        {
+
+            mainFrame.Navigate(new SajatOtlet());
+
+        }
+
     }
 
 }

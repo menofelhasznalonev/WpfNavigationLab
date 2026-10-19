@@ -34,6 +34,7 @@ namespace WpfNavigationLab
 
 
             MessageBox.Show($"Szia {txtName.Text.Trim()}!");
+            Title = txtName.Text.Trim();
 
         }
 

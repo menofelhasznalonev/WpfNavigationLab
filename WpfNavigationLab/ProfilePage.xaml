@@ -78,6 +78,11 @@ Height="45"
 
 Click="Back_Click"/>
 
+            <Button Content="Beállítások"
+                    Height="45"
+                    Margin="0,50,0,25"
+                    Click="OpenSettings_Click"/>
+
 
         </StackPanel>
 
