@@ -64,6 +64,14 @@ namespace WpfNavigationLab
 
         }
 
+        private void OpenSettings_Click(object sender, RoutedEventArgs e)
+
+        {
+
+            mainFrame.Navigate(new SettingsPage());
+
+        }
+
     }
 
 }
